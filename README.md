@@ -65,5 +65,5 @@ function getConsecutives (consecutiveNum, consecutiveSum) {
 Test:
 Find four consecutive numbers whose sum is 90?
 getConsecutives(3, 90);
-Solution: [29, 30, 31]
+Solution: [21, 22, 23, 24]
 
