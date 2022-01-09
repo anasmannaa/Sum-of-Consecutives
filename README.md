@@ -1,6 +1,6 @@
 # Sum-of-Consecutives
 Some times we face an algebric mathimatical problem says:<br/>
-"Find two consecutive numbers whose sum is 57"<br/>
+"Find two consecutive integer numbers whose sum is 57"<br/>
 
 The solution would be easy, we need to create a linear equation (data model) to solve the problem:<br/>
 let x = first numbee<br/>
