@@ -15,7 +15,7 @@ and that was the solution mathimatically.<br/><br/>
 
 Recape: we have created a mathimatical data model to solve the equation.<br/><br/>
 
-Now let's take our data model to the second level and create an algorithm to help us solve the same problem for any number od consecutive numbers (after some try and test steps I got that algorith):<br/>
+Now let's take our data model to the next level and create an algorithm to help us solve for any number of consecutive numbers (after some try and test steps I got that algorith):<br/>
 1- let x equal to the number of consecutive numbers that sums to the given sum.<br/>
 2- let y represents the cumulative positional sum of the consecutive numbers giving the first number a position value of 0 (for example if we have 4 consecutive numbers that sms to the given sum, we calculate 0 + 1 + 2 + 3, and that will be the value of y)<br/>
 3 the solution will be as follow:<br/>
