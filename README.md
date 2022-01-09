@@ -43,6 +43,7 @@ Check our solution:<br/>
 Now, it is time to use a programming language data structur to rewrite our algorith (to convert the mathimatical data model into a C language data model)<br/><br/>
 
 Javascript:<br/><br/>
+
 function getConsecutives (consecutiveNum, consecutiveSum) {
     const consecutives = [];
     let firstNumber;
