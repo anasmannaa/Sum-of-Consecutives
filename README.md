@@ -40,9 +40,30 @@ Fourth number = first number + 3 = 24
 Check our solution:
 21 + 22 + 23 + 24 = 90 (we did it right)
 
-Now, it is time to use a programming language (C language) data structur to rewrite our algorith (to convert the mathimatical data model into a C language data model)
+Now, it is time to use a programming language data structur to rewrite our algorith (to convert the mathimatical data model into a C language data model)
 
+Javascript:
+function getConsecutives (consecutiveNum, consecutiveSum) {
+    const consecutives = [];
+    let firstNumber;
+    let positionCumulative = 0;
+    for (let i = 1; i < consecutiveNum; i++)
+    {
+        positionCumulative += i;
+    }
 
+    firstNumber = (consecutiveSum - positionCumulative) / consecutiveNum;
+    
+    for (let i = 0; i < consecutiveNum; i++)
+    {
+        consecutives[i] = firstNumber + i;
+    }
 
+    return consecutives;
+}
 
+Test:
+Find four consecutive numbers whose sum is 90?
+getConsecutives(3, 90);
+Solution: [29, 30, 31]
 
