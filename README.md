@@ -40,7 +40,7 @@ Fourth number = first number + 3 = 24<br/><br/>
 Check our solution:<br/>
 21 + 22 + 23 + 24 = 90 (we did it right)<br/><br/>
 
-Now, it is time to use a programming language data structur to rewrite our algorith (to convert the mathimatical data model into a C language data model)<br/><br/>
+Now, it is time to use a programming language data structur to rewrite our algorith (to convert the mathimatical data model into a javascript data model)<br/><br/>
 
 Javascript:<br/><br/>
 ```
